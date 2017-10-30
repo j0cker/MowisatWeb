@@ -143,7 +143,7 @@ We are always in the search for partners that wish to make the vision of a fully
 //partners.php 
 
 $txt["part-ners"] = "Partners";
-$txt["hughes"] = "Hughes Communications provides satellite broadband managed network services and digital media solutions worldwide, with a particular focus to delivering broadband and equipment solutions to rural regions.";
+$txt["hughes"] = "Hughes Communications provides satellite broadband managed network services and digital media solutions worldwide with a particular focus to delivering broadband and equipment solutions to rural regions.";
 $txt["piggi"] = "Pig.gi is a marketplace for consumer data and engagement. Through Pig.gi coins, the app will provide a way for people to access to Mowisat's Wi-Fi networks.";
 $txt["net"] = "Netfreedom Pioneers provides the technical solution that enables an SD satellite TV uplink to beam down data. Their unique technology enables flow of information and content in areas with limited access.";
 $txt["stargo"] = "StarGo provides satellite internet to clients located in areas of difficult access. StarGo is a strategic partner with infrastructure, sales and installation teams support.";
