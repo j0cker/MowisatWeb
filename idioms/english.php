@@ -143,10 +143,10 @@ We are always in the search for partners that wish to make the vision of a fully
 //partners.php 
 
 $txt["part-ners"] = "Partners";
-$txt["hughes"] = "HUGHES COMMUNICATIONS PROVIDES SATELLITE BROADBAND MANAGED NETWORK SERVICES AND DIGITAL MEDIA SOLUTIONS WORLDWIDE, WITH A PARTICULAR FOCUS TO DELIVERING BROADBAND AND EQUIPMENT SOLUTIONS TO RURAL REGIONS.";
-$txt["piggi"] = "PIG.GI IS A MARKETPLACE FOR CONSUMER DATA AND ENGAGEMENT. THROUGH PIG.GI COINS, THE APP WILL PROVIDE A WAY FOR PEOPLE TO ACCESS TO MOWISAT'S WI-FI NETWORKS.";
-$txt["net"] = "NetFreedom Pioneers provides the technical solution that enables an SD satellite TV uplink to beam down data. Their unique technology enables flow of information and content in areas with limited access.";
-$txt["stargo"] = "STARGO PROVIDES SATELLITE INTERNET TO CLIENTS LOCATED IN AREAS OF DIFFICULT ACCESS. STARGO IS A STRATEGIC PARTNER WITH INFRASTRUCTURE, SALES AND INSTALLATION TEAMS SUPPORT.";
+$txt["hughes"] = "Hughes Communications provides satellite broadband managed network services and digital media solutions worldwide, with a particular focus to delivering broadband and equipment solutions to rural regions.";
+$txt["piggi"] = "Pig.gi is a marketplace for consumer data and engagement. Through Pig.gi coins, the app will provide a way for people to access to Mowisat's Wi-Fi networks.";
+$txt["net"] = "Netfreedom Pioneers provides the technical solution that enables an SD satellite TV uplink to beam down data. Their unique technology enables flow of information and content in areas with limited access.";
+$txt["stargo"] = "StarGo provides satellite internet to clients located in areas of difficult access. StarGo is a strategic partner with infrastructure, sales and installation teams support.";
 $txt["botonMasInfo"] = "More information";
 
 //mission.php 

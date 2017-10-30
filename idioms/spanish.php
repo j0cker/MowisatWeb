@@ -116,10 +116,11 @@ Siempre estamos en la búsqueda de socios que deseen hacer realidad la visión d
 //partners.php 
 
 $txt["part-ners"] = "Socios";
-$txt["hughes"] = "HUGHES COMMUNICATIONS PROPORCIONA SERVICIOS DE RED DE BANDA ANCHA POR SATÉLITE Y SOLUCIONES DE MEDIOS DIGITALES EN TODO EL MUNDO. SE ENFOCAN EN ENTREGAR SOLUCIONES DE BANDA ANCHA Y EQUIPO EN REGIONES RURALES.";
-$txt["piggi"] = "PIG.GI ES UNA APLICACIÓN PARA FIDELIZAR Y CONSEGUIR DATOS DE CONSUMIDORES. A TRAVÉS DE LAS MONEDAS PIG.GI, LA APLICACIÓN PROPORCIONARÁ UNA FORMA PARA QUE LAS PERSONAS ACCEDAN A LAS REDES WI-FI DE MOWISAT.";
-$txt["net"] = "NetFreedom Pioneers provee soluciones técnicas que generan una conexión para descargar data de un satélite SD de televisión. Su tecnología única permite el flujo de información y contenido en areas de acceso limitado.";
-$txt["stargo"] = "STARGO PROPORCIONA INTERNET POR SATÉLITE A CLIENTES SITUADOS EN ÁREAS DE ACCESO DIFÍCIL. STARGO ES UN SOCIO ESTRATÉGICO CON LA INFRAESTRUCTURA, LAS VENTAS Y EL SOPORTE DE EQUIPOS DE INSTALACIÓN.";
+$txt["hughes"] = "Hughes Communications proporciona servicios de red de banda ancha por satélite y soluciones de medios digitales en todo el mundo. Se enfocan en entregar soluciones de banda ancha y equipo en regiones rurales.";
+$txt["piggi"] = "Pig.gi es una aplicación para fidelizar y conseguir datos de consumidores. A través de las monedas Pig.gi, la aplicación proporcionará una forma para que las personas accedan a las redes Wi-Fi de Mowisat.";
+$txt["net"] = "Netfreedom Pioneers provee soluciones técnicas que generan una conexión para descargar data de un satélite SD de televisión. Su tecnología única permite el flujo de información y contenido en áreas de acceso limitado.";
+$txt["stargo"] = "StarGo proporciona internet por satélite a clientes situados en áreas de acceso difícil. StarGo es un socio estratégico con la infraestructura, las ventas y el soporte de equipos de instalación.
+";
 $txt["botonMasInfo"] = "Más información";
 
 //mission.php 
