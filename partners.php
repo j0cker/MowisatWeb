@@ -55,7 +55,7 @@ include ''.dirname(__FILE__).'/template/header.php';
                     <img class="text-center" style="margin: 2em 0 0 0; width: 20em;" src="images/net.png" />
                 </div>
                 <div class="transform" style="margin: 40px 0 0 0; text-align: center;">
-                    <p style="text-transform: uppercase"><?PHP echo $txt["net"]; ?></p>
+                    <p style=""><?PHP echo $txt["net"]; ?></p>
                     <a href="https://www.netfreedompioneers.org/">
                         <button class="black-b ahover"><?PHP echo $txt["botonMasInfo"]; ?></button>
                     </a>

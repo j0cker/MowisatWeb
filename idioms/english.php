@@ -23,15 +23,15 @@ for business processes optimization.";
 $txt["indexSubTitle"] = "Mowisat's projects";
 
 $txt["sat1"] = "Satellite Broadband";
-$txt["sat2"] = "WE ARE BRINGING AFFORDABLE INTERNET CONNECTIVITY TO THE RURAL AREAS. OUR OBJECTIVE IS TO CONNECT THE REST OF MEXICO TO THE INTERNET.";
+$txt["sat2"] = "We are bringing affordable internet connectivity to the rural areas. Our objective is to connect the rest of Mexico to the internet.";
 $txt["sat3"] = "Know our project!";
 
 $txt["soc1"] = "Social Projects";
-$txt["soc2"] = "CONNECTIVITY ALLOWS THE ACCESS TO DIFFERENT SERVICES. WE INTENT TO BRING THEM AND IMPROVE COMMUNITIES QUALITY OF LIFE.";
+$txt["soc2"] = "Connectivity allows the access to different online services. We intent to bring them and improve communities quality of life.";
 $txt["soc3"] = "Know more!";
 
 $txt["mow1"] = "Meet Mowisat Corp";
-$txt["mow2"] = "WE ARE A HIGHLY EXPERIENCED GROUP OF PEOPLE IN TELECOMMUNICATIONS WITH A GREAT SENSE OF SOCIAL RESPONSABILITY.";
+$txt["mow2"] = "We are a highly experienced group of people in telecommunications with a great sense of social responsability.";
 $txt["mow3"] = "Meet the team";
 
 $txt["botonAprendeMas"] = "Learn more.";

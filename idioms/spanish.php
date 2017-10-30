@@ -24,15 +24,15 @@ $txt["botonAprendeMas"] = "APRENDE MÁS";
 $txt["indexSubTitle"] = "Proyectos de Mowisat";
 
 $txt["sat1"] = "Internet Satelital";
-$txt["sat2"] = "LLEVAMOS INTERNET POR SATELITE A LAS COMUNIDADES RURALES. QUEREMOS CONECTAR LO QUE RESTA DE MÉXICO AL INTERNET.";
+$txt["sat2"] = "Llevamos internet por satelite a las comunidades rurales. Queremos conectar lo que resta de México al internet.";
 $txt["sat3"] = "¡Conoce el proyecto!";
 
 $txt["soc1"] = "Proyectos Sociales";
-$txt["soc2"] = "LA CONECTIVIDAD PERMITE EL ACCESO A SERVICIOS DIVERSOS PLANEAMOS LLEVARLOS Y MEJORAR LA CALIDAD DE VIDA DE LAS COMUNIDADES.";
+$txt["soc2"] = "La conectividad permite el acceso a servicios digitales diversos. Planeamos llevarlos y mejorar la calidad de vida de las comunidades.";
 $txt["soc3"] = "¡Conoce más!";
 
 $txt["mow1"] = "Somos Mowisat Corp";
-$txt["mow2"] = "UN EQUIPO DE PROFESIONALES EXPERIMENTADOS EN TELECOMUNICACIONES CON UN GRAN SENTIDO DE LA RESPOSABILIDAD SOCIAL.";
+$txt["mow2"] = "Somos un equipo de profesionales experimentados en telecomunicaciones con un gran sentido de la resposabilidad social.";
 $txt["mow3"] = "Conoce a nuestro equipo";
 
 $txt["blogPost"] ="Mowisat Corporation es una compañía que trabaja con internet satelital

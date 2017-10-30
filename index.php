@@ -257,6 +257,22 @@ include ''.dirname(__FILE__).'/scripts/utils/conexionBlog.php';
                 </div>
 
             </div><!--fin row-->
+
+
+            <div class="row">
+
+                <div style="margin-bottom: 40px;" class="col-md-12 text-center">
+            
+                    <div class="lrn-more-btn">
+                        <a href="/blog">
+                            <button class="ahover" style="color: black; background-color: transparent; border: 4px solid black; border-radius: 2em; font-size: 1em; text-align: center; text-decoration: none; display: inline-block; padding: 0.35em 1.5em; margin: 2em;"><?PHP echo $txt["soc3"]; ?></button>
+                        </a>
+                    </div> 
+
+                </div>
+
+            </div>
+        
         </section>
         
         <!-- FIRST BLOG BOX
