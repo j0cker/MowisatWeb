@@ -1,0 +1,53 @@
+p {
+    margin: 0;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.sat {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sat h1 {
+    text-align: center;
+    margin: 1.7em;
+    color: white;
+    font-size: 6em;
+}
+
+.description {
+    background-color: #DADADA;
+    padding: 0 2em;
+}
+
+.description h3 {
+    text-align: center;
+    font-size: 3em;
+}
+
+.logos {
+    text-align: center;
+}
+
+.logos img {
+    height: 15em;
+    width: 15em;
+    margin: 1em;
+    border-radius: 100%;  
+}
+
+.blue {
+    background-color: #569EB6;
+    color: white;
+    margin-top: 0;
+}
+
+.margin-short {
+    margin: 5em 0;
+}
+
+.margin-big {
+    margin: 5em 0;
+}

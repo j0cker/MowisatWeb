@@ -1,0 +1,53 @@
+.careers-img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.careers-img h1 {
+    text-align: center;
+    color: white;
+    margin: 5em 0;
+}
+
+.big-box div {
+    margin: 4.4em 0;
+}
+
+.blue {
+    background-color: #569EB6;
+    color: white;
+    margin-top: 0;
+}
+
+.blue button {
+    color: white;
+    background-color: transparent;
+    border: 4px solid white;
+    border-radius: 2em;
+    font-size: 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.35em 1.5em;
+    margin-top: 1em;
+}
+
+.logos img {
+    width: 21.4em;
+    height: 5.35em;
+}
+
+.black button {
+    color: black;
+    background-color: transparent;
+    border: 4px solid black;
+    border-radius: 2em;
+    font-size: 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.35em 1.5em;
+    margin-top: 1em;
+}
+

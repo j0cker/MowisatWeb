@@ -1,0 +1,104 @@
+h2 {
+    margin: 1em 0;
+    font-size: 3em;
+    text-align: center;
+    color: #569EB6
+}
+
+h3 {
+    margin: 1em 0 1em 0;
+    text-align: center;
+    font-size: 2em;
+}
+
+.list-ul ul {
+    margin: 0 0 8em 0;
+}
+
+.list-li li {
+    margin: 2em 0;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    padding: 0 2em 0 2em;
+}
+
+.border-l {
+    border: 5px solid #569EB6; 
+    margin: 8em 0 2em 0;
+}
+
+.more-mar {
+    margin-top: 2em;
+}
+
+.sat {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sat h1 {
+    text-align: center;
+    margin: 1.7em;
+    color: white;
+    font-size: 3em;
+}
+
+.last-mile {
+    background-color: #DADADA;
+    padding: 0 2em;
+}
+
+.last-mile h3 {
+    text-align: center;
+    font-size: 3em;
+}
+
+.comp {
+    height: 40em;
+    width: 65em;
+    margin: 10em 0 10em 0;
+}
+
+.border-w {
+    border: 5px solid white; 
+    margin: 8em 0;
+}
+
+.border-w2 {
+    border: 5px solid white; 
+    margin-bottom: 3em;
+}
+
+.logos {
+    text-align: center;
+}
+
+.logos img {
+    height: 12em;
+    width: 12em;
+    border-radius: 100%;  
+}
+
+
+.blue {
+    background-color: #569EB6;
+    color: white;
+    margin-top: 0;
+}
+
+.margin-short {
+    margin: 5em 0;
+}
+
+.margin-big {
+    margin: 3em 0;
+}
+
+.padding p {
+    padding: 0 2em;
+}
+
+.white h2 {
+    color: white;
+}

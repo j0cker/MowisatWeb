@@ -1,0 +1,82 @@
+
+@font-face {
+	font-family: 'mowisat';
+	src:url('../fonts/mowisat/Roboto-Black.ttf') format('truetype'),
+            url('../fonts/mowisat/Roboto-BlackItalic.ttf') format('truetype'),
+            url('../fonts/mowisat/Roboto-Bold.ttf') format('truetype'),
+            url('../fonts/mowisat/Roboto-BoldCondensed.ttf') format('truetype'),
+            url('../fonts/mowisat/Roboto-BoldCondensedItalic.ttf') format('truetype'),
+            url('../fonts/mowisat/Roboto-BoldItalic.ttf') format('truetype'),
+            url('../fonts/mowisat/Roboto-Condensed.ttf') format('truetype'), 
+            url('../fonts/mowisat/Roboto-CondensedItalic.ttf') format('truetype'),
+            url('../fonts/mowisat/Roboto-Italic.ttf') format('truetype'),
+            url('../fonts/mowisat/Roboto-Light.ttf') format('truetype')
+            url('../fonts/mowisat/Roboto-LightItalic.ttf') format('truetype'),
+            url('../fonts/mowisat/Roboto-Medium.ttf') format('truetype'),
+            url('../fonts/mowisat/Roboto-MediumItalic.ttf') format('truetype'),
+            url('../fonts/mowisat/Roboto-Regular.ttf') format('truetype'),
+            url('../fonts/mowisat/Roboto-Thin.ttf') format('truetype'),
+            url('../fonts/mowisat/Roboto-ThinItalic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*
+'Montserrat', sans-serif;
+'mowisat', 'roboto'
+*/
+
+* {
+    font-family: 'Roboto', sans-serif !important;
+}
+h1 {
+    font-family: 'roboto', sans-serif !important;
+}
+h2 {
+    font-family: 'roboto', sans-serif !important;
+}
+h3 {
+    font-family: 'roboto', sans-serif !important;
+}
+h4 {
+    font-family: 'roboto', sans-serif !important;
+}
+h5 {
+    font-family: 'roboto', sans-serif !important;
+}
+p {
+    font-family: 'roboto', sans-serif !important;
+}
+label {
+    font-family: 'roboto', sans-serif !important;
+}
+a {
+    font-family: 'roboto', sans-serif !important;
+}
+div {
+    font-family: 'roboto', sans-serif !important;
+}
+span {
+    font-family: 'roboto', sans-serif !important;
+}
+body {
+    font-family: 'roboto', sans-serif !important;
+}
+b {
+    font-family: 'roboto', sans-serif !important;
+}
+i {
+    font-family: 'roboto', sans-serif !important;
+}
+input {
+    font-family: 'roboto', sans-serif !important;
+}
+button {
+    font-family: 'roboto', sans-serif !important;
+}
+li {
+    font-family: 'roboto', sans-serif !important;
+}
+ul {
+    font-family: 'roboto', sans-serif !important;
+}

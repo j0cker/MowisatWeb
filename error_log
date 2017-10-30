@@ -1,0 +1,41 @@
+[19-Oct-2017 05:01:03 UTC] PHP Warning:  include(/home/vl4tk0tr43098/public_html/../utils/conexionBlog.php): failed to open stream: No such file or directory in /home/vl4tk0tr43098/public_html/index.php on line 3
+[19-Oct-2017 05:01:03 UTC] PHP Warning:  include(): Failed opening '/home/vl4tk0tr43098/public_html/../utils/conexionBlog.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/vl4tk0tr43098/public_html/index.php on line 3
+[19-Oct-2017 05:01:03 UTC] PHP Warning:  include(/home/vl4tk0tr43098/public_html/../utils/functions.php): failed to open stream: No such file or directory in /home/vl4tk0tr43098/public_html/index.php on line 4
+[19-Oct-2017 05:01:03 UTC] PHP Warning:  include(): Failed opening '/home/vl4tk0tr43098/public_html/../utils/functions.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/vl4tk0tr43098/public_html/index.php on line 4
+[19-Oct-2017 05:05:03 UTC] PHP Warning:  include(/home/vl4tk0tr43098/public_html/../utils/conexionBlog.php): failed to open stream: No such file or directory in /home/vl4tk0tr43098/public_html/index.php on line 3
+[19-Oct-2017 05:05:03 UTC] PHP Warning:  include(): Failed opening '/home/vl4tk0tr43098/public_html/../utils/conexionBlog.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/vl4tk0tr43098/public_html/index.php on line 3
+[19-Oct-2017 05:05:03 UTC] PHP Warning:  include(/home/vl4tk0tr43098/public_html/../utils/functions.php): failed to open stream: No such file or directory in /home/vl4tk0tr43098/public_html/index.php on line 4
+[19-Oct-2017 05:05:03 UTC] PHP Warning:  include(): Failed opening '/home/vl4tk0tr43098/public_html/../utils/functions.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/vl4tk0tr43098/public_html/index.php on line 4
+[19-Oct-2017 05:05:03 UTC] PHP Notice:  Undefined variable: conn in /home/vl4tk0tr43098/public_html/index.php on line 169
+[19-Oct-2017 05:05:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/vl4tk0tr43098/public_html/index.php:169
+Stack trace:
+#0 {main}
+  thrown in /home/vl4tk0tr43098/public_html/index.php on line 169
+[19-Oct-2017 05:05:43 UTC] PHP Warning:  include(/home/vl4tk0tr43098/public_html/utils/conexionBlog.php): failed to open stream: No such file or directory in /home/vl4tk0tr43098/public_html/index.php on line 3
+[19-Oct-2017 05:05:43 UTC] PHP Warning:  include(): Failed opening '/home/vl4tk0tr43098/public_html/utils/conexionBlog.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/vl4tk0tr43098/public_html/index.php on line 3
+[19-Oct-2017 05:05:43 UTC] PHP Warning:  include(/home/vl4tk0tr43098/public_html/utils/functions.php): failed to open stream: No such file or directory in /home/vl4tk0tr43098/public_html/index.php on line 4
+[19-Oct-2017 05:05:43 UTC] PHP Warning:  include(): Failed opening '/home/vl4tk0tr43098/public_html/utils/functions.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/vl4tk0tr43098/public_html/index.php on line 4
+[19-Oct-2017 05:05:43 UTC] PHP Notice:  Undefined variable: conn in /home/vl4tk0tr43098/public_html/index.php on line 169
+[19-Oct-2017 05:05:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/vl4tk0tr43098/public_html/index.php:169
+Stack trace:
+#0 {main}
+  thrown in /home/vl4tk0tr43098/public_html/index.php on line 169
+[19-Oct-2017 05:06:07 UTC] PHP Fatal error:  Cannot redeclare getDirUrl() (previously declared in /home/vl4tk0tr43098/public_html/scripts/utils/functions.php:3) in /home/vl4tk0tr43098/public_html/scripts/utils/functions.php on line 10
+[19-Oct-2017 05:06:23 UTC] PHP Fatal error:  Cannot redeclare getDirUrl() (previously declared in /home/vl4tk0tr43098/public_html/scripts/utils/functions.php:3) in /home/vl4tk0tr43098/public_html/scripts/utils/functions.php on line 10
+[19-Oct-2017 05:12:32 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/vl4tk0tr43098/public_html/index.php on line 171
+[19-Oct-2017 05:12:35 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/vl4tk0tr43098/public_html/index.php on line 171
+[19-Oct-2017 05:12:42 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/vl4tk0tr43098/public_html/index.php on line 171
+[19-Oct-2017 05:12:44 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/vl4tk0tr43098/public_html/index.php on line 171
+[19-Oct-2017 05:17:16 UTC] PHP Warning:  utf8_encode() expects exactly 1 parameter, 2 given in /home/vl4tk0tr43098/public_html/index.php on line 171
+[19-Oct-2017 05:18:19 UTC] PHP Warning:  utf8_encode() expects exactly 1 parameter, 2 given in /home/vl4tk0tr43098/public_html/index.php on line 171
+[19-Oct-2017 05:18:41 UTC] PHP Warning:  utf8_encode() expects exactly 1 parameter, 2 given in /home/vl4tk0tr43098/public_html/index.php on line 171
+[19-Oct-2017 05:30:05 UTC] PHP Notice:  Undefined variable: guid in /home/vl4tk0tr43098/public_html/index.php on line 180
+[19-Oct-2017 05:30:05 UTC] PHP Notice:  Undefined variable: guid in /home/vl4tk0tr43098/public_html/index.php on line 180
+[19-Oct-2017 05:30:05 UTC] PHP Notice:  Undefined variable: guid in /home/vl4tk0tr43098/public_html/index.php on line 180
+[19-Oct-2017 05:30:05 UTC] PHP Notice:  Undefined variable: guid in /home/vl4tk0tr43098/public_html/index.php on line 180
+[19-Oct-2017 05:30:05 UTC] PHP Notice:  Undefined variable: guid in /home/vl4tk0tr43098/public_html/index.php on line 180
+[19-Oct-2017 05:30:24 UTC] PHP Notice:  Undefined index: guid  in /home/vl4tk0tr43098/public_html/index.php on line 180
+[19-Oct-2017 05:30:24 UTC] PHP Notice:  Undefined index: guid  in /home/vl4tk0tr43098/public_html/index.php on line 180
+[19-Oct-2017 05:30:24 UTC] PHP Notice:  Undefined index: guid  in /home/vl4tk0tr43098/public_html/index.php on line 180
+[19-Oct-2017 05:30:24 UTC] PHP Notice:  Undefined index: guid  in /home/vl4tk0tr43098/public_html/index.php on line 180
+[19-Oct-2017 05:30:24 UTC] PHP Notice:  Undefined index: guid  in /home/vl4tk0tr43098/public_html/index.php on line 180

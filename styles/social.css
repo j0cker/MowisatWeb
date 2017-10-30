@@ -1,0 +1,67 @@
+.careers-img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.careers-img h1 {
+    text-align: center;
+    color: white;
+    margin: 5em 0;
+}
+
+.box {
+    padding: 4em;
+    height: 40em;
+}
+
+.box h2 {
+    font-size: 4em;
+    text-align: center;
+}
+
+.box p {
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+.dg {
+    background-color: #569EB6;
+    color: white;
+}
+
+.cc {
+    background-color: #C3E7F1;
+}
+
+@media all and (max-width: 2400px) { /* screen size until 1200px */
+    .textoSocialTitle {
+        font-size: 2.3em !important; /* 1.5x default size */
+    }
+}
+@media all and (max-width: 1000px) { /* screen size until 1000px */
+    .textoSocialTitle {
+        font-size: 2em !important; /* 1.2x default size */
+        }
+}
+@media all and (max-width: 500px) { /* screen size until 500px */
+    .textoSocialTitle {
+        font-size: 1.7em !important; /* 0.8x default size */
+        }
+}
+
+@media all and (max-width: 2400px) { /* screen size until 1200px */
+    .textoSocial2 {
+        font-size: 1.8em !important; /* 1.5x default size */
+    }
+}
+@media all and (max-width: 1000px) { /* screen size until 1000px */
+    .textoSocial2 {
+        font-size: 1.5em !important; /* 1.2x default size */
+        }
+}
+@media all and (max-width: 500px) { /* screen size until 500px */
+    .textoSocial2 {
+        font-size: 1em !important; /* 0.8x default size */
+        }
+}

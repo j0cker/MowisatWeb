@@ -1,0 +1,159 @@
+.aboutus-pic {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+section.aboutus-pic {
+    height: 30em;
+}
+
+.aboutus-pic h1 {
+    text-align: center;
+    margin: 1.7em;
+    color: white;
+    font-size: 6em;
+}
+
+.know-more {
+    width: 100% !important;
+    background-color: #DADADA;
+}
+
+.letter-size {
+    margin: 1.5em 0;
+}
+
+.letter-size h3 {
+    color: white;
+    font-size: 4em;
+    text-align: center;
+  
+}
+
+.letter-size h4 {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.image {
+    text-align: center;
+}
+
+.image img {
+    height: 15em;
+    width: 15em;
+    margin: 1em;
+    text-align: center;
+    border-radius: 100%;    
+}
+
+.margin-line {
+    display: block;
+    unicode-bidi: isolate;
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.big-box {
+    margin-bottom: 4em;
+}
+
+
+.box-important {
+    margin: 1em 0.06em;
+    background-color: #C3E7F1;
+    height: 36em;
+    padding: 1.8em 0;
+}
+
+@media only screen and (max-width: 988px) {
+    .team {
+        margin: 4em 0;
+        border: 0.5em solid #C3E7F1;
+        padding: 0.5em 0 0.5em 0;
+    }
+}
+
+@media only screen and (min-width: 988px) {
+    .team {
+        margin: 4em 0;
+        border: 0.5em solid #C3E7F1;
+        padding: 1.5em 0 2em 0;
+    }
+}
+
+.team h2, h3 {
+    text-align: center;
+}
+
+.team h2 {
+    font-size: 3.2em;
+}
+/*
+.team h3 {
+    font-size: 1.5em;
+    padding: 0 10em;
+    line-height: inherit;
+}
+*/
+
+@media all and (max-width: 2400px) { /* screen size until 1200px */
+    .imagenAboutusStrct {
+        width: 60% !important; /* 1.5x default size */
+    }
+}
+@media all and (max-width: 1000px) { /* screen size until 1000px */
+    .imagenAboutusStrct {
+        width: 80% !important; /* 1.2x default size */
+        }
+}
+@media all and (max-width: 500px) { /* screen size until 500px */
+    .imagenAboutusStrct {
+        width: 80% !important; /* 0.8x default size */
+        }
+}
+
+.box {
+    text-align: justify; 
+    box-sizing: border-box;
+
+}
+
+.box img {
+    height: 10em;
+    width: 10em;
+}
+
+.box p {
+    padding: 1em 2em;
+    color: black;
+}
+
+.box p {
+    font-size: 1em;
+}
+
+.vision-sec {
+  background-color: #569EB6;
+}
+
+.vision-text h2, p {
+    text-align: center;
+    color: white;
+}
+
+.vision-text h2 {
+    font-size: 3.2em;
+}
+
+.vision-text {
+    font-size: 1.3em;
+    line-height: inherit;
+}
