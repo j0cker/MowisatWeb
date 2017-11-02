@@ -45,7 +45,7 @@
 
         <div class="col-md-10">
             <div style="padding: 0; width: 100%;" class="z-depth-4 card-panel">
-                <div style="margin-top: 0px; margin-bottom: 20px; background-color: black; background: rgba(0,0,0,0.5);">
+                <div style="margin-top: 0px; margin-bottom: 20px; background-color: #00c384;">
                     
                 
                 
