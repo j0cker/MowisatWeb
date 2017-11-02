@@ -21,6 +21,15 @@
             a {color: gray}
             a:hover {text-decoration: none; color: gray};
         </style>
+        <script>
+        function descargaPiggi(){
+
+            console.log("descargaPiggi");
+            //https://play.google.com/store/apps/details?id=farrow.pig.gi&referrer=utm_source%3Dpiggi%26utm_medium%3Dnone%26utm_campaign%3Dpromotions%26utm_content%3Dpiggi%253A%252F%252Fp%252Fmowisat
+            window.location = "http://google.com";
+
+        }
+        </script>
     </head>
     <body>
 
@@ -46,11 +55,10 @@
                             <div style="background-color: #FFF; border-radius: 100%; display: inline-block; width: 20em; height: 20em; box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3); text-align: center;">
                                 <img class="text-center" style="margin: 8.5em 0 0 0; width: 10em;" src="images/piggi_logo.png" />
                             </div>
-                            <div class="transform" style="margin: 40px 0 0 0; text-align: center;">
+                            <div class="transform" style="margin: 40px 0 0 0; text-align: center; color: white;">
                                 <p style=""><?PHP echo $txt["net"]; ?></p>
-                                <a href="https://www.netfreedompioneers.org/">
-                                    <button class="black-b ahover"><?PHP echo $txt["botonMasInfo"]; ?></button>
-                                </a>
+                                <button onclick="descargaPiggi();" class="btn btn-danger">Descarga Piggi</button>
+                                
                             </div>
                         </div>
 
