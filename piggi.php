@@ -9,7 +9,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Our Vision</title>
+        <title>Descarga Pig.gi</title>
 
         <?PHP
             include ''.dirname(__FILE__).'/template/meta.php';
@@ -56,7 +56,7 @@
                                 <img class="text-center" style="margin: 8.5em 0 0 0; width: 10em;" src="images/piggi_logo.png" />
                             </div>
                             <div class="transform" style="margin: 40px 0 0 0; text-align: center; color: white;">
-                                <p style=""><?PHP echo $txt["net"]; ?></p>
+                                <p style=""><?PHP echo $txt["piggiDescarga"]; ?></p>
                                 <button onclick="descargaPiggi();" class="btn btn-danger">Descarga Piggi</button>
                                 
                             </div>

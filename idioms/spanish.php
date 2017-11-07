@@ -273,4 +273,10 @@ En todo caso podrás acceder a tus datos, rectificarlos, cancelarlos y en su cas
 a) bien mediante solicitud acompañada de una fotocopia de una identificación con validez oficial, remitida a la siguiente dirección postal: Calle Bahía de las Palmas 1, Verónica Anzures, 113000, Ciudad de México, CDMX.<br />
 b) bien mandando un e-mail a la siguiente dirección de correo electrónico: info@mowisatcorp.com
 ";
+
+
+//piggi.php
+
+$txt["piggiDescarga"] = "Pig.gi es una aplicación para fidelizar y conseguir datos de consumidores. A través de las monedas Pig.gi, la aplicación proporcionará una forma para que las personas accedan a las redes Wi-Fi de Mowisat.";
+
 ?>
