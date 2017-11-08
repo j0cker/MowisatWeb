@@ -365,10 +365,14 @@ include ''.dirname(__FILE__).'/scripts/utils/conexionBlog.php';
         <section style="margin-bottom: 40px;" class="container contact-us-box">
             <div class="row">
                 <div class="col-sm-12">
-                    <h4 style="margin-top: 40px; margin-bottom: 40px;"><?PHP echo $txt["contactUs"]; ?></h4>
+                    <h4 style="margin-top: 80px; margin-bottom: 40px;">
+                        <a href="mailto:info@mowisatcorp.com">
+                            <?PHP echo $txt["contactUs"]; ?>
+                        </a>
+                    </h4>
                 </div>
             </div>
-            
+            <!--
             <div class="row">
                 
                 <div class="col-sm-6">
@@ -420,6 +424,7 @@ include ''.dirname(__FILE__).'/scripts/utils/conexionBlog.php';
                 </div>
                 
             </div>
+            -->
             
         </section>
         
@@ -431,7 +436,7 @@ include ''.dirname(__FILE__).'/scripts/utils/conexionBlog.php';
     
         <!-- INITIATES WORK WITH US BOX -->
         
-        <section class="container-fluid work-with-us-box">
+        <section style="padding: 40px 0 40px 0;" class="container-fluid work-with-us-box">
             <div>
                 <h4 style="color: #3e3e3f !important;" class="work-title"><?PHP echo $txt["workWith"]; ?></h4>
             </div>

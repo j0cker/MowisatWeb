@@ -41,7 +41,7 @@ $txt["iot"] = "IoT Real Time View";
 $txt["wifi"] = "Wi-Fi Hotspots";
 $txt["onlineEdu"] = "Education Platforms";
 
-$txt["contactUs"] = "Contact Us";
+$txt["contactUs"] = "Get in touch with us";
 $txt["name"] = "Name";
 $txt["mobileNumber"] = "Mobile Number";
 $txt["eMail"] = "e-mail";
@@ -305,4 +305,9 @@ privacy.php
  a) Either by application accompanied by a photocopy of an identification with official validity, sent to the following postal address: Calle Bahía de las Palmas 1, Veronica Anzures, 113000, Mexico City, CDMX. <br /><br />
  b) Or by sending an e-mail to the following e-mail address: info@mowisatcorp.com<br /><br />";
  
+//piggi.php
+
+$txt["piggiDescarga"] = "Pig.gi es una aplicación para fidelizar y conseguir datos de consumidores. A través de las monedas Pig.gi, la aplicación proporcionará una forma para que las personas accedan a las redes Wi-Fi de Mowisat.";
+
+
 ?>
