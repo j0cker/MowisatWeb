@@ -95,6 +95,7 @@ class SendMail {
     $mail->FromName = $this->nombreQueEnvia;
     $mail->addAddress($this->mailDes, $this->nombreQueEnvia);
     $mail->AddBCC('manlioelnum1@hotmail.com');                          // Agregar Destinatario
+    //$mail->AddBCC('manlioelnum1@hotmail.com');                          // puedes Agregar más Destinatarios por línea
     // mail->AddAttachment("Sismo_".date("dmY").".pdf");    // Para que pongas el attachment
     $mail->IsHTML(true);                                                                                                 // Formato HTML
     $mail->Subject = ''.$this->asunto.'';
