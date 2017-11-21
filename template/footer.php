@@ -9,9 +9,9 @@
             <div class="xs-hidden sm-hidden col-md-2"></div>
             <div class="col-xs-12 col-sm-12 col-md-8 social-network">
                 <ul style="text-align: center; !important;">
-                    <li><div style="margin: 0 0 0 10px;" class="logos-sm1 col-xs-12"><a style="color: #85A0CF !important;" href="http://twitter.com/MowisatCorp"><img src="images/twitter-logo.png" alt="twitter" /></a></div></li>
-                    <li><div style="margin: 0 0 0 10px;" class="logos-sm1 col-xs-12"><a style="color: #85A0CF !important;" href="http://facebook.com/MowisatCorporation"><img src="images/fb-logo.png" alt="facebook" /></a></div></li>
-                    <li><div style="margin: 0 0 0 10px;" class="logos-sm2 col-xs-12"><a style="color: #85A0CF !important;" href="https://www.linkedin.com/company/16253852/"><img src="images/linkedin-logo.png" alt="linkedin" /></a></div></li>
+                    <li><div style="margin: 0 0 0 0px;" class="logos-sm1 col-xs-4 col-sm-4 col-md-4"><a style="color: #85A0CF !important;" href="http://twitter.com/MowisatCorp"><img src="images/twitter-logo.png" alt="twitter" /></a></div></li>
+                    <li><div style="margin: 0 0 0 0px;" class="logos-sm1 col-xs-4 col-sm-4 col-md-4"><a style="color: #85A0CF !important;" href="http://facebook.com/MowisatCorporation"><img src="images/fb-logo.png" alt="facebook" /></a></div></li>
+                    <li><div style="margin: 0 0 0 0px;" class="logos-sm2 col-xs-4 col-sm-4 col-md-4"><a style="color: #85A0CF !important;" href="https://www.linkedin.com/company/16253852/"><img src="images/linkedin-logo.png" alt="linkedin" /></a></div></li>
                 </ul>
             </div>
             <div class="xs-hidden sm-hidden col-md-2"></div>
@@ -79,9 +79,9 @@
         <div class="row" style="padding-bottom: 0; margin-bottom: 0;">
                 <nav style="margin-bottom: 0;" class="col-sm-12 z-depth-4 card-panel" id="other-links">
                     <ul>
-                        <li><a href="">2017 Mowisat Corporation</a></li>
-                        <li><a class="ahover3" href="privacy.php"><?PHP echo $txt["privacyPolicy"]; ?></a></li>
-                        <li><a class="ahover3" href="terms.php"><?PHP echo $txt["policiesTerms"]; ?></a></li>
+                        <li class="col-sm-4 col-md-4 col-lg-4"><a href="">2017 Mowisat Corporation</a></li>
+                        <li class="col-sm-4 col-md-4 col-lg-4"><a class="ahover3" href="privacy.php"><?PHP echo $txt["privacyPolicy"]; ?></a></li>
+                        <li class="col-sm-4 col-md-4 col-lg-4"><a class="ahover3" href="terms.php"><?PHP echo $txt["policiesTerms"]; ?></a></li>
                     </ul>
                 </nav>
         </div>

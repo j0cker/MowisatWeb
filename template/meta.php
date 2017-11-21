@@ -30,6 +30,12 @@
 <!-- jQuery library -->
 <script src="js/parallax.min.js"></script>
 
+<!--Menu-->
+<link rel="stylesheet" id="divi-style-css" href="./styles/menu/menu.css" type="text/css" media="all">
+<script type="text/javascript" src="./js/menu/global-functions-menu.js"></script>
+<script type="text/javascript" src="./js/menu/custom-menu.js"></script>	
+
+
 <style>
 .container-fluid{
     padding-right: 0 !important;

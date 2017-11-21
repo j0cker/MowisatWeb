@@ -215,7 +215,7 @@ include ''.dirname(__FILE__).'/scripts/utils/conexionBlog.php';
 
                 <div style="margin-bottom: 40px;" class="col-md-12 text-center">
             
-                    <h4 class="margin">BLOG</h4>
+                    <h4 style="color: black;" class="margin">BLOG</h4>
 
                 </div>
 
