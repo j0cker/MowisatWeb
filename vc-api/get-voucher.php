@@ -11,9 +11,22 @@ mysqli_set_charset($conn,"utf8");
 $log = new LoggerPhp();
 $log->write_log("[Get-location]","Debug");
 
-$option = $_GET["option"];
-$location = $_GET["location"];
-$macAddress = $_GET["macAddress"];
+
+if(!empty($_GET["option"])){
+    $option = $_GET["option"];
+} else {
+    $option = "";
+}
+if(!empty($_GET["location"])){
+    $location = $_GET["location"];
+} else {
+    $location = "";
+}
+if(!empty($_GET["macAddress"])){
+    $macAddress = $_GET["macAddress"];
+} else {
+    $macAddress = "";
+}
 
 
 $obj = new stdclass();
@@ -22,40 +35,71 @@ $obj->description = "";
 $obj->voucher = "";
 $obj->error = 0;
 
-//Busca MacAddress Repetidas
-//Método de Exchange between Piggi Download and Free Internet
-if($option==1){
+if(empty($option) || empty($location)){
+    //parametros vacíos
+    $obj->success = "false";
+    $obj->description = "Parámetros Inválidos";
+    $obj->error = 4;
+} else {
 
-    //busca MACAddress
-    $query = $conn->query("SELECT * FROM macaddressapi WHERE address='".$macAddress."'") OR die(mysqli_error($conn));
-    if($query->num_rows>0){
-        
-        //rechaza la entrega de voucher
-        $obj->success = "false";
-        $obj->description = "Éste usuario ya ha descargado previamente la aplicación piggi.";
-        $obj->error = 2;
+    //Busca MacAddress Repetidas
+    //Método de Exchange between Piggi Download and Free Internet
+    if($option==1){
+
+        //busca MACAddress
+        $query = $conn->query("SELECT * FROM macaddressapi WHERE address='".$macAddress."'") OR die(mysqli_error($conn));
+        if($query->num_rows>0){
             
+            //rechaza la entrega de voucher
+            $obj->success = "false";
+            $obj->description = "Éste usuario ya ha descargado previamente la aplicación piggi.";
+            $obj->error = 2;
+                
+
+        } else {
+
+            //busca un Voucher
+            $query = $conn->query("SELECT * FROM vouchersapi WHERE location_id='".$location."' ORDER BY id ASC") OR die(mysqli_error($conn));
+            if($query->num_rows>0){
+
+                $row=$query->fetch_assoc();
+
+                $obj->voucher = $row["voucher"];
+
+                //almacena MacAddress en Base
+
+                $insert = $conn->query("INSERT INTO macaddressapi (address) VALUES ('".$macAddress."')") OR die(mysqli_error($conn));
+                if($insert!=1){
+
+                    $obj->success = "false";
+                    $obj->description = "Error Contacte al administrador";
+                    $obj->error = 1;
+
+                }
+
+                //falta eliminar voucher
+
+            } else {
+                
+                //no hay vouchers disponibles
+                $obj->success = "false";
+                $obj->description = "No hay vouchers disponibles";
+                $obj->error = 3;
+            }
+
+        }
 
     } else {
 
-        //busca un Voucher
+        //NO Busca MacAddress Repetidas
+        //Método de Exchange between piggi coins and Free Internet
+        //busca un VOucher
         $query = $conn->query("SELECT * FROM vouchersapi WHERE location_id='".$location."' ORDER BY id ASC") OR die(mysqli_error($conn));
         if($query->num_rows>0){
 
             $row=$query->fetch_assoc();
 
             $obj->voucher = $row["voucher"];
-
-            //almacena MacAddress en Base
-
-            $insert = $conn->query("INSERT INTO macaddressapi (address) VALUES ('".$macAddress."')") OR die(mysqli_error($conn));
-            if($insert!=1){
-
-                $obj->success = "false";
-                $obj->description = "Error Contacte al administrador";
-                $obj->error = 1;
-
-            }
 
             //falta eliminar voucher
 
@@ -66,29 +110,6 @@ if($option==1){
             $obj->description = "No hay vouchers disponibles";
             $obj->error = 3;
         }
-
-    }
-
-} else {
-
-    //NO Busca MacAddress Repetidas
-    //Método de Exchange between piggi coins and Free Internet
-    //busca un VOucher
-    $query = $conn->query("SELECT * FROM vouchersapi WHERE location_id='".$location."' ORDER BY id ASC") OR die(mysqli_error($conn));
-    if($query->num_rows>0){
-
-        $row=$query->fetch_assoc();
-
-        $obj->voucher = $row["voucher"];
-
-        //falta eliminar voucher
-
-    } else {
-        
-        //no hay vouchers disponibles
-        $obj->success = "false";
-        $obj->description = "No hay vouchers disponibles";
-        $obj->error = 3;
     }
 }
 
