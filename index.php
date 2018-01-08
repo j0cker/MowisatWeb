@@ -224,6 +224,28 @@ include ''.dirname(__FILE__).'/scripts/utils/conexionBlog.php';
             <div class="row">
                 
                 <div class="col-md-4 text-center">
+                    <a href="http://www.mowisat.mx/blog/2017/12/22/digital-library-beta-version-is-ready-and-soon-to-be-tested-by-the-secretary-of-education-of-mexico/">
+                        <img style="box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3); text-align: center; border-radius: 100%; height: 10em; width: 10em;" src="http://www.mowisat.mx/blog/wp-content/uploads/2017/12/digital-library-1200x580.jpg" />            
+                    </a>
+                    <br /><br />
+                    <a class="ahover" style="color: black;" href="http://www.mowisat.mx/blog/2017/12/22/digital-library-beta-version-is-ready-and-soon-to-be-tested-by-the-secretary-of-education-of-mexico/">
+                        <h4 class="ahover" style="color: black;">Digital Library beta version is ready and soon to be tested by the Secretary of Education of Mexico</h4>
+                    </a>
+                    <br /><br />
+                </div>
+                
+                <div class="col-md-4 text-center">
+                    <a href="http://www.mowisat.mx/blog/2017/12/23/satellite-internet-access-in-maxa-camp-tulum-mexico/">
+                        <img style="box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3); text-align: center; border-radius: 100%; height: 10em; width: 10em;" src="http://www.mowisat.mx/blog/wp-content/uploads/2017/12/tulum.jpg" />            
+                    </a>
+                    <br /><br />
+                    <a class="ahover" style="color: black;" href="http://www.mowisat.mx/blog/2017/12/23/satellite-internet-access-in-maxa-camp-tulum-mexico/">
+                        <h4 class="ahover" style="color: black;">SATELLITE INTERNET ACCESS IN MAXA CAMP, TULUM, MEXICO</h4>
+                    </a>
+                    <br /><br />
+                </div>
+                
+                <div class="col-md-4 text-center">
                     <a href="http://www.mowisat.mx/blog/2017/11/07/ellos-llevan-telefonia-e-internet-comunitario-en-mexico/">
                         <img style="box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3); text-align: center; border-radius: 100%; height: 10em; width: 10em;" src="images/blog/4.png" />            
                     </a>
@@ -234,6 +256,7 @@ include ''.dirname(__FILE__).'/scripts/utils/conexionBlog.php';
                     <br /><br />
                 </div>
 
+                <!--
                 <div class="col-md-4 text-center">
                     <a href="http://www.mowisat.mx/blog/2017/10/18/testimonial-ricardo-zepeda-now-programs-thanks-to-codecademy/">
                         <img style="box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3); text-align: center; border-radius: 100%; height: 10em; width: 10em;" src="images/blog/1.jpg" />            
@@ -243,8 +266,9 @@ include ''.dirname(__FILE__).'/scripts/utils/conexionBlog.php';
                         <h4 class="ahover" style="color: black;">Testimonial – Ricardo Zepeda now programs thanks to Codecademy</h4>
                     </a>
                     <br /><br />
-                </div>
+                </div>-->
 
+                <!--
                 <div class="col-md-4 text-center">
                     <a href="http://www.mowisat.mx/blog/2017/10/18/instalan-internet-satelital-gratuito-para-afectados-en-parque-mexico-el-financiero/">
                         <img style="box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3); text-align: center; border-radius: 100%; height: 10em; width: 10em;" src="images/blog/2.png" />            
@@ -255,6 +279,8 @@ include ''.dirname(__FILE__).'/scripts/utils/conexionBlog.php';
                     </a>
                     <br /><br />
                 </div>
+                -->
+
                 <!--
                 <div class="col-md-4 text-center">
                     <a href="http://www.mowisat.mx/blog/2017/10/18/mowisat-corporation-announcement-appointment-of-president-of-the-board-2/">
