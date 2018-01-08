@@ -132,6 +132,8 @@
 
         </div>   
 
+        <!--
+
         <div class='row'>
 
 
@@ -178,7 +180,7 @@
 
         </div>   
 
-
+        -->
 
         <div class='row'>
 
@@ -257,11 +259,11 @@
 
                 <div class="box-important z-depth-4 card-panel">
                     <div class='image'>
-                        <img style="box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);" src="images/team/diego.jpg" />
+                        <img style="box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);" src="images/empresario.jpg" />
                     </div>
 
                     <div class='name'>
-                        <h3>DIEGO STEWART</h3>
+                        <h3>DIEGO ALISTAIR</h3>
                     </div>
 
                     <div class='description'>
